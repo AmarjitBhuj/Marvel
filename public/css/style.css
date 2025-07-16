@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+body,
+button {
+  font-family: sans-serif;
+}
+
+:root {
+  --offcanvas-width: 270px;
+  --topNavbarHeight: 56px;
+}
+
+.sidebar-nav {
+  width: var(--offcanvas-width);
+  background-color: #000000e3;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-link .right-icon {
+  display: inline-flex;
+}
+
+.sidebar-link[aria-expanded="true"] .right-icon {
+  transform: rotate(180deg);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.card-footer{
+  /* background-color: #ffa8B6; */
+  background-color: #294d61;
+  color: #d9e7ff;
+}
+.card1{
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+.card{
+  border-radius: 10px 10px 0px 0px;
+  color: #d9e7ff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -ms-border-radius: 10px 10px 0px 0px;
+  -o-border-radius: 10px 10px 0px 0px;
+  /* background-color: #d0bdf4; */
+  /* background: linear-gradient(90deg, #0600b8c5 0%, #00ff88c5 100%); */
+  background: linear-gradient(90deg, #072e33 0%, #072e33 100%);
+  z-index: 1;
+}
+
+.dash_pro::before{
+    left: 0;
+    top: 0;
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    /* background-color: rgb(9, 186, 20); */
+    background: linear-gradient(90deg, #00C9FFc5 0%, #072e33 100%);
+    /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
+    border-radius: 30% 70% 67% 33% / 30% 30% 70% 70% ;
+    z-index: -1;
+    -webkit-border-radius: 30% 70% 67% 33% / 30% 30% 70% 70% ;
+    -moz-border-radius: 30% 70% 67% 33% / 30% 30% 70% 70% ;
+    -ms-border-radius: 30% 70% 67% 33% / 30% 30% 70% 70% ;
+    -o-border-radius: 30% 70% 67% 33% / 30% 30% 70% 70% ;
+}
+@media (min-width: 992px) {
+  body {
+    overflow: auto !important;
+  }
+
+  main {
+    margin-left: var(--offcanvas-width);
+  }
+
+  /* this is to remove the backdrop */
+  .offcanvas-backdrop::before {
+    display: none;
+  }
+
+  .sidebar-nav {
+    -webkit-transform: none;
+    transform: none;
+    visibility: visible !important;
+    height: calc(100% - var(--topNavbarHeight));
+    top: var(--topNavbarHeight);
+  }
+}
