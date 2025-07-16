@@ -1,39 +1,41 @@
-# Marvel
-A dynamic Laravel-based web platform for superhero enthusiasts. HeroVerse lets users explore superhero profiles, book movie tickets, purchase merchandise, play fun quizzes, and more—all in one place.
+#  Marvel 
 
-🚀 Features
-✅ User Authentication
+A dynamic **Laravel-based web platform** for superhero enthusiasts. **HeroVerse** lets users explore superhero profiles, book movie tickets, purchase merchandise, play fun quizzes, and more—all in one place.  
 
-Register, log in, and manage your account securely.
+---
 
-🎫 Book Movie Tickets
+## 🚀 Features  
 
-Browse Marvel movie listings and book tickets easily.
+✅ **User Authentication**  
+- Register, log in, and manage your account securely.  
 
-🦸‍♂️ Heroes Description
+🎫 **Book Movie Tickets**  
+- Browse Marvel movie listings and book tickets easily.  
 
-Explore detailed profiles of Marvel superheroes.
+🦸‍♂️ **Heroes Description**  
+- Explore detailed profiles of Marvel superheroes.  
 
-🖼 Gallery
+🖼 **Gallery**  
+- View high-quality superhero posters and wallpapers.  
 
-View high-quality superhero posters and wallpapers.
+🛍 **Buy Merchandise**  
+- Shop for Marvel-themed T-shirts, toys, and accessories.  
 
-🛍 Buy Merchandise
+📝 **About Us & Contact Us**  
+- Learn about the platform and get in touch with the team.  
 
-Shop for Marvel-themed T-shirts, toys, and accessories.
+🧠 **Play Quiz**  
+- Test your Marvel knowledge with interactive quizzes.  
 
-📝 About Us & Contact Us
+---
 
-Learn about the platform and get in touch with the team.
+## 🛠 Tech Stack  
 
-🧠 Play Quiz
+- **Backend:** Laravel 10 (PHP Framework)  
+- **Frontend:** Blade Templates, Bootstrap 5, CSS3, JavaScript  
+- **Database:** MySQL  
+---
 
-Test your Marvel knowledge with interactive quizzes.
-
-🛠️ Tech Stack
-Backend: Laravel 10 (PHP Framework)
-
-Frontend: Blade Templates, Bootstrap 5, CSS3, JavaScript
-
-Database: MySQL
+## 📄 About  
+This project was created to combine fun, shopping, and movie booking for Marvel fans in one interactive platform.  
 
